@@ -9,7 +9,7 @@ body {
     color: #ffffff !important;
     padding: 0 !important;
     background-color: #ABC2E8 ;
-    background-image: url(/assets/images/bgflo.webp);
+    background-image: url(https://i.postimg.cc/L57HD0X9/bgflo.png);
     background-size: 100%;
     
 }
@@ -96,7 +96,8 @@ body {
     inset: 0 !important;
     width: 100%;
     height: 100%;
-    background-image: url(/assets/images/well.webp);
+    background-color: #111111;
+    background-image: url(https://i.postimg.cc/mDL2gHJs/well.png);
     background-size:100%;
     z-index: 1056 !important;
 }
