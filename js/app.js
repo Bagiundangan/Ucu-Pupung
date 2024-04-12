@@ -269,7 +269,7 @@ const progress = (() => {
         info.innerText = `Loading gambar..(${loaded}/${total}) [${parseInt(bar.style.width).toFixed(0)}%]`;
 
         if (loaded == total) {
-            util.show();
+            util.sho();
         }
     };
 
