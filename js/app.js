@@ -229,7 +229,7 @@ const util = (() => {
 
     const show = () => {
         tamu();
-        oity('loading');
+        opacity('loading');
         window.scrollTo(0, 0);
     };
 
