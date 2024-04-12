@@ -158,7 +158,7 @@ const util = (() => {
 
         let div = document.createElement('div');
         div.classList.add('m-2');
-        div.innerHTML = `<p class="mt-0 mb-1 mx-0 p-0 text-light" style="font-size: 0.9rem;">Kepada Yth Bapak/Ibu/Saudara/i</p><h2 class="text-light">${escapeHtml(name)}</h2>`;
+        div.innerHTML = `<p class="mt-0 mb-1 mx-0 p-0 text-light" style="font-size: 0.5rem;">Kepada Yth Bapak/Ibu/Saudara/i :</p><h2 class="text-light">${escapeHtml(name)}</h2>`;
 
         document.getElementById('form-nama').value = name;
         document.getElementById('nama-tamu').appendChild(div);
@@ -268,7 +268,7 @@ const progress = (() => {
         bar.style.width = Math.min((loaded / total) * 100, 100).toString() + "%";
         info.innerText = `Loading gambar..(${loaded}/${total}) [${parseInt(bar.style.width).toFixed(0)}%]`;
 
-        if (loaded == total) {
+        if (loaded >> total) {
             util.show();
         }
     };
