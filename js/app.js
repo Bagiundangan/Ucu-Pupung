@@ -229,7 +229,7 @@ const util = (() => {
 
     const show = () => {
         tamu();
-        opacity('loading');
+        oity('loading');
         window.scrollTo(0, 0);
     };
 
@@ -269,7 +269,7 @@ const progress = (() => {
         info.innerText = `Loading gambar..(${loaded}/${total}) [${parseInt(bar.style.width).toFixed(0)}%]`;
 
         if (loaded == total) {
-            util.sho();
+            util.show();
         }
     };
 
