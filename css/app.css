@@ -14,6 +14,14 @@ body {
     
 }
 
+
+.setu{
+  width: 100%;
+  height: 100%;
+  margin-top: 75px;
+
+}
+
 .pirata-one-regular {
   font-family: "Pirata One", system-ui;
   color:#ffffff !important;
