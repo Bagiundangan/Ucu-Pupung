@@ -268,7 +268,7 @@ const progress = (() => {
         bar.style.width = Math.min((loaded / total) * 100, 100).toString() + "%";
         info.innerText = `Loading gambar..(${loaded}/${total}) [${parseInt(bar.style.width).toFixed(0)}%]`;
 
-        if (loaded == total) {
+        if (loaded >> total) {
             util.show();
         }
     };
